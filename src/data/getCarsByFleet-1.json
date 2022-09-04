@@ -1,0 +1,5045 @@
+{
+  "categoryList": {
+    "2": "L1e - Lehké dvoukolové motorové vozidlo",
+    "3": "L2e - Tříkolový moped",
+    "8": "L7e - Těžká čtyřkolka",
+    "25": "T1 - Traktor kolový s rozchodem menším než 1150 mm, hmotností větší než 600 kg, výškou nad vozovkou menší než 1000 mm"
+  },
+  "typeList": {
+    "1": "Motocykl",
+    "2": "Osobní automobil",
+    "8": "Traktor a jeho přípojná vozidla"
+  },
+  "usageList": {
+    "14": "Běžný provoz",
+    "18": "Autoškola",
+    "21": "Odvoz komunálního odpadu"
+  },
+  "fuelList": {
+    "1": "Benzín",
+    "8": "Hybridní",
+    "11": "Methanol",
+    "12": "Vodík"
+  },
+  "formDefinitions": [
+    {
+      "FormDefinitionItemID": 1,
+      "FormDefinitionItemCode": "Car.Car_Type",
+      "FormDefinitionItemName": "Druh vozidla"
+    },
+    {
+      "FormDefinitionItemID": 2,
+      "FormDefinitionItemCode": "Car.Car_Category",
+      "FormDefinitionItemName": "Kategorie vozidla"
+    },
+    {
+      "FormDefinitionItemID": 3,
+      "FormDefinitionItemCode": "Car.Registration_Plate",
+      "FormDefinitionItemName": "Registrační značka"
+    },
+    {
+      "FormDefinitionItemID": 4,
+      "FormDefinitionItemCode": "Car.Car_Number",
+      "FormDefinitionItemName": "Evidenční číslo"
+    },
+    {
+      "FormDefinitionItemID": 5,
+      "FormDefinitionItemCode": "Car.VIN",
+      "FormDefinitionItemName": "VIN"
+    },
+    {
+      "FormDefinitionItemID": 6,
+      "FormDefinitionItemCode": "Car.Engine_Nr",
+      "FormDefinitionItemName": "Číslo motoru"
+    },
+    {
+      "FormDefinitionItemID": 7,
+      "FormDefinitionItemCode": "Car.Body_Nr",
+      "FormDefinitionItemName": "Číslo karosérie"
+    },
+    {
+      "FormDefinitionItemID": 8,
+      "FormDefinitionItemCode": "Car.Car_Make",
+      "FormDefinitionItemName": "Značka"
+    },
+    {
+      "FormDefinitionItemID": 9,
+      "FormDefinitionItemCode": "Car.Car_Model_Line",
+      "FormDefinitionItemName": "Modelová řada"
+    },
+    {
+      "FormDefinitionItemID": 10,
+      "FormDefinitionItemCode": "Car.Fuel",
+      "FormDefinitionItemName": "Palivo"
+    },
+    {
+      "FormDefinitionItemID": 11,
+      "FormDefinitionItemCode": "Car.Stroke_Volume",
+      "FormDefinitionItemName": "Zdvihový objem (ccm)"
+    },
+    {
+      "FormDefinitionItemID": 12,
+      "FormDefinitionItemCode": "Car.Engine_Power",
+      "FormDefinitionItemName": "Výkon motoru (kW)"
+    },
+    {
+      "FormDefinitionItemID": 13,
+      "FormDefinitionItemCode": "Car.Seats",
+      "FormDefinitionItemName": "Míst k sezení"
+    },
+    {
+      "FormDefinitionItemID": 14,
+      "FormDefinitionItemCode": "Car.Stands",
+      "FormDefinitionItemName": "Míst ke stání"
+    },
+    {
+      "FormDefinitionItemID": 15,
+      "FormDefinitionItemCode": "Car.Beds",
+      "FormDefinitionItemName": "Počet lůžek"
+    },
+    {
+      "FormDefinitionItemID": 16,
+      "FormDefinitionItemCode": "Car.Weight",
+      "FormDefinitionItemName": "Povolená hmotnost (kg)"
+    },
+    {
+      "FormDefinitionItemID": 17,
+      "FormDefinitionItemCode": "Car.Car_Model",
+      "FormDefinitionItemName": "Model"
+    },
+    {
+      "FormDefinitionItemID": 18,
+      "FormDefinitionItemCode": "Car.Specification",
+      "FormDefinitionItemName": "Specifikace vozidla"
+    },
+    {
+      "FormDefinitionItemID": 19,
+      "FormDefinitionItemCode": "Car.Delivery_Car",
+      "FormDefinitionItemName": "Užitkový automobil"
+    },
+    {
+      "FormDefinitionItemID": 20,
+      "FormDefinitionItemCode": "Car.Tourer",
+      "FormDefinitionItemName": "Obytný automobil"
+    },
+    {
+      "FormDefinitionItemID": 21,
+      "FormDefinitionItemCode": "Car.Truck_Tractor",
+      "FormDefinitionItemName": "Tahač"
+    },
+    {
+      "FormDefinitionItemID": 22,
+      "FormDefinitionItemCode": "Car.Semitrailer",
+      "FormDefinitionItemName": "Návěs"
+    },
+    {
+      "FormDefinitionItemID": 23,
+      "FormDefinitionItemCode": "Car.City_Bus",
+      "FormDefinitionItemName": "Autobus MHD"
+    },
+    {
+      "FormDefinitionItemID": 24,
+      "FormDefinitionItemCode": "Car.Trolleybus",
+      "FormDefinitionItemName": "Trolejbus"
+    },
+    {
+      "FormDefinitionItemID": 25,
+      "FormDefinitionItemCode": "Car.Lift_Truck",
+      "FormDefinitionItemName": "Vysokozdvižný vozík"
+    },
+    {
+      "FormDefinitionItemID": 26,
+      "FormDefinitionItemCode": "Car.Mileage",
+      "FormDefinitionItemName": "Celkem najeto (km)"
+    },
+    {
+      "FormDefinitionItemID": 27,
+      "FormDefinitionItemCode": "Car.Car_Value",
+      "FormDefinitionItemName": "Hodnota vozidla (Kč)"
+    },
+    {
+      "FormDefinitionItemID": 28,
+      "FormDefinitionItemCode": "Car.Car_Including_VAT",
+      "FormDefinitionItemName": "Hodnota vozidla vč. DPH"
+    },
+    {
+      "FormDefinitionItemID": 29,
+      "FormDefinitionItemCode": "Car.Machine_Value",
+      "FormDefinitionItemName": "Hodnota pracovního stroje"
+    },
+    {
+      "FormDefinitionItemID": 30,
+      "FormDefinitionItemCode": "Car.Machine_Including_VAT",
+      "FormDefinitionItemName": "Hodnota pracovního stroje vč. DPH"
+    },
+    {
+      "FormDefinitionItemID": 31,
+      "FormDefinitionItemCode": "Car.Car_Security",
+      "FormDefinitionItemName": "Zabezpečení"
+    },
+    {
+      "FormDefinitionItemID": 32,
+      "FormDefinitionItemCode": "Car.Car_Sec_Mechanical",
+      "FormDefinitionItemName": "Mechanické zabezpečení pevně spojené s karosérií"
+    },
+    {
+      "FormDefinitionItemID": 33,
+      "FormDefinitionItemCode": "Car.Car_Sec_Alarm",
+      "FormDefinitionItemName": "Alarm"
+    },
+    {
+      "FormDefinitionItemID": 34,
+      "FormDefinitionItemCode": "Car.Car_Sec_Locator_Pasive",
+      "FormDefinitionItemName": "Pasivní vyhledávací systém"
+    },
+    {
+      "FormDefinitionItemID": 35,
+      "FormDefinitionItemCode": "Car.Car_Sec_Immobiliser",
+      "FormDefinitionItemName": "Imobilizér"
+    },
+    {
+      "FormDefinitionItemID": 36,
+      "FormDefinitionItemCode": "Car.Car_Sec_Locator_Active",
+      "FormDefinitionItemName": "Aktivní vyhledávací systém umožňující lokalizaci"
+    },
+    {
+      "FormDefinitionItemID": 37,
+      "FormDefinitionItemCode": "Car.Car_Sec_Sanding",
+      "FormDefinitionItemName": "Pískování skel"
+    },
+    {
+      "FormDefinitionItemID": 38,
+      "FormDefinitionItemCode": "Car.Registration_Book",
+      "FormDefinitionItemName": "Číslo velkého TP"
+    },
+    {
+      "FormDefinitionItemID": 39,
+      "FormDefinitionItemCode": "Car.Using",
+      "FormDefinitionItemName": "Užití vozidla"
+    },
+    {
+      "FormDefinitionItemID": 40,
+      "FormDefinitionItemCode": "Car.Purchase_Date",
+      "FormDefinitionItemName": "Datum pořízení vozidla"
+    },
+    {
+      "FormDefinitionItemID": 41,
+      "FormDefinitionItemCode": "Car.First_Registration_Date",
+      "FormDefinitionItemName": "Datum první registrace"
+    },
+    {
+      "FormDefinitionItemID": 42,
+      "FormDefinitionItemCode": "Car.Production_Year",
+      "FormDefinitionItemName": "Rok výroby"
+    }
+  ],
+  "objects": [
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "TEST",
+      "usage": 14,
+      "purchaseDate": "2022-07-02",
+      "firstRegistrationDate": "2022-07-04",
+      "info": {
+        "ObjectID": 190,
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-08-29",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "usage": 14,
+      "purchaseDate": "2022-07-02",
+      "firstRegistrationDate": "2022-07-03",
+      "info": {
+        "ObjectID": 201,
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-08-29",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "PAVEL-KLOS-1969",
+      "number": "EA1144477",
+      "vin": "VIN123456789",
+      "engineNumber": "MOTOR1234",
+      "bodyNumber": "karosérie 21",
+      "modelLine": "OCTAVIA",
+      "fuel": 12,
+      "strokeVolume": 2500,
+      "enginePower": 500,
+      "seats": 2,
+      "weight": 1000,
+      "model": "Octavia Combi II 09",
+      "specification": "Specifikace",
+      "milage": 200000,
+      "value": 150000,
+      "valueInclVAT": true,
+      "security": true,
+      "mechanicalSecurity": true,
+      "alarm": true,
+      "passiveLocator": true,
+      "immobiliser": true,
+      "activeLocator": true,
+      "sanding": true,
+      "registrationBook": "TP123457",
+      "usage": 18,
+      "purchaseDate": "2022-08-01",
+      "firstRegistrationDate": "2022-08-01",
+      "productionYear": 2015,
+      "info": {
+        "ObjectID": 202,
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-08-30",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 3,
+      "info": {
+        "ObjectID": 203,
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-08-30",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 3,
+      "fuel": 1,
+      "usage": 14,
+      "info": {
+        "ObjectID": 204,
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-08-30",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 2,
+      "category": 2,
+      "registrationPlate": "ABC-1234",
+      "fuel": 1,
+      "usage": 14,
+      "info": {
+        "ObjectID": 205,
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-08-30",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 8,
+      "registrationPlate": "REG-ZNACKA-CR",
+      "number": "EV-CISLO",
+      "vin": "VIN",
+      "engineNumber": "CISLO-MOTORU",
+      "bodyNumber": "CISLO-KAROSERIE",
+      "brand": "ZNACKA",
+      "modelLine": "MODEL-RADA",
+      "fuel": 11,
+      "strokeVolume": 2500,
+      "enginePower": 350,
+      "seats": 4,
+      "weight": 2350,
+      "model": "MODEL",
+      "specification": "SPEC-VOZIDLA",
+      "milage": 125000,
+      "value": 135000,
+      "valueInclVAT": true,
+      "security": true,
+      "mechanicalSecurity": true,
+      "alarm": true,
+      "passiveLocator": true,
+      "immobiliser": true,
+      "activeLocator": true,
+      "sanding": true,
+      "registrationBook": "TP123457",
+      "usage": 18,
+      "purchaseDate": "2022-08-01",
+      "firstRegistrationDate": "2022-08-08",
+      "productionYear": 2020,
+      "info": {
+        "ObjectID": 206,
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-08-30",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 8,
+      "category": 25,
+      "registrationPlate": "TRAKTOR-REG-ZNACKA-2",
+      "number": "TRAKTOR-EV-CISLO",
+      "vin": "TRAKTOR-VIN",
+      "engineNumber": "TRAKTOR-CISLO-MOTORU",
+      "bodyNumber": "TRAKTOR-CISLO-KAROSERIE",
+      "brand": "TRAKTOR-ZNACKA",
+      "modelLine": "TRAKTOR-MODEL-RADA",
+      "fuel": 8,
+      "strokeVolume": 1800,
+      "enginePower": 650,
+      "seats": 2,
+      "weight": 3500,
+      "model": "TRAKTOR-ZETOR",
+      "specification": "TRAKTOR-SPEC-VOZIDLA",
+      "milage": 15000,
+      "value": 45000,
+      "valueInclVAT": true,
+      "registrationBook": "TP123457",
+      "usage": 21,
+      "purchaseDate": "2022-08-07",
+      "firstRegistrationDate": "2022-08-14",
+      "productionYear": 1995,
+      "info": {
+        "ObjectID": 207,
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-08-30",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 225,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 226,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 227,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 228,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 229,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 230,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 231,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 232,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 233,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 234,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 235,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 236,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 237,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 238,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 239,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 240,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 241,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 242,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 243,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 244,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 245,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 246,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 247,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 248,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 249,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 250,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 251,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 252,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 253,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 254,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 255,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 256,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 257,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 258,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 259,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 260,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 261,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 262,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 263,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 264,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 265,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 266,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 267,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 268,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 269,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 270,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 271,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 272,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 273,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 274,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 275,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 276,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 277,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 278,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 279,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 280,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 281,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 282,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 283,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 284,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 285,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 286,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 287,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 288,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 289,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 290,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 291,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 292,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 293,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 294,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 295,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 296,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 297,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 298,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 299,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 300,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 301,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 302,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 303,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 304,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 305,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 306,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 307,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 308,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 309,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 310,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 311,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 312,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 313,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 314,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 315,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 316,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 317,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 318,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 319,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 320,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 321,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 322,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 323,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 324,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 325,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 326,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 327,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 328,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 329,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 330,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 331,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 332,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 333,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 334,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 335,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 336,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 337,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 338,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 339,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 340,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 341,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 342,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 343,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 344,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 345,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 346,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 347,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 348,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 349,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 350,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 351,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 352,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 353,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 354,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 355,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 356,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 357,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 358,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 359,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 360,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 361,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 362,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 363,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 364,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 365,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 366,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 367,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 368,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 369,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 370,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 371,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 372,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 373,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    },
+    {
+      "type": 1,
+      "category": 2,
+      "registrationPlate": "150AM150",
+      "vin": "150AMKMKF5678SDF",
+      "info": {
+        "ObjectID": 374,
+        "Description": "hromadný insert",
+        "DescriptionLabel": "Poznámka",
+        "OwnerInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Vlastník"
+        },
+        "OperatorInfo": {
+          "EntityTypeID": 26,
+          "EntityID": 39559,
+          "memberDetailLink": "/person?EntityID=39559&EntityTypeID=26",
+          "memberDetailLinkTitle": "Krásný Kamil - 8001010000 (42)",
+          "memberText": "Krásný Kamil - 8001010000 (42)",
+          "label": "Provozovatel"
+        },
+        "DateFrom": "2022-09-02",
+        "EntityID": 1,
+        "EntityTypeID": 111
+      }
+    }
+  ]
+}
